@@ -1,0 +1,16 @@
+﻿.body {
+    padding-top:70px;
+}
+
+.bg_cat {
+    background-image:url("D:\Siva Chamarthi\Workspace\Visual Studio\MVC 4\Practise Applications\BootstrapApplication\BootstrapApplication\Images\cta_bg.jpg")
+}
+
+/*#footer {
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: rgba(212, 199, 199, 0.92);
+}*/

@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<div class="row" >
+    @*<section style="background-image: url(~\Images\cta_bg.jpg)">
+        <div class="row">
+
+
+        </div>
+    </section>*@
+    <div class="container">
+           <div class="row">
+               <div class="col-md-6">
+                   <div class="form-group">
+                       <div class="input-group date" id="datepicker">
+                           <input class="form-control" type="text"/>
+                           <span class="input-group-addon">
+                               <span class="glyphicon glyphicon-calendar"></span>
+                           </span>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+    </div>
+</div>
+@section scripts{
+<script type="text/javascript">
+    $(function () {
+        $('#datepicker').datetimepicker();
+    });
+</script>
+    }

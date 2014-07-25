@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - My ASP.NET MVC Application</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    @*@Styles.Render("~/Content/css")*@
+    
+    @Styles.Render("~/bundles/united_bootstrap")
+    @*@Styles.Render("~/Content/bootstrap")*@
+    @Styles.Render("~/Content/css")
+    @*@Styles.Render("~/Content/jQgrid")*@
+    @*@Scripts.Render("~/bundles/modernizr")*@
+</head>
+<body>
+    <header class="container">
+        <div class="navbar navbar-default ">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Site.Com</a>
+            </div>
+            
+            <ul class="nav navbar-nav nav-pills">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            
+        </div>
+        
+    </header>
+    <div id="container">
+        @RenderSection("featured", required: false)
+        <section class="container">
+            @RenderBody()
+        </section>
+    </div>
+    <footer class="container">
+        <div class="row">
+            <div >
+                <div class="navbar  navbar-inverse ">
+                    <div class="container">
+                        <p class="text-muted text-center">&copy;2014 Site.com </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @*@Scripts.Render("~/bundles/jQgrid")*@
+    @RenderSection("scripts", required: false)
+</body>
+</html>

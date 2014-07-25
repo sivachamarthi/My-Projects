@@ -1,0 +1,231 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@*<div class="jumbotron">
+        <h2> Site.com</h2>
+        <p class="small">
+            Here is a small explanation about site.com!! &nbsp;<a class="btn btn-info" data-toggle="modal" data-target="#myModal">Take a Tour! <span class="glyphicon glyphicon-align-right glyphicon-chevron-right"></span></a>
+        </p>
+    </div>*@
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+</div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h5>Italian Stallion</h5>
+                    </div>
+                    <div class="panel-body">
+                        <p>Rocky Balboa has a name for him as Italian Stallion.Ali has beaten Sunny Liston and his punch was called phanthom punch.!!!&nbsp;</p>
+                        <p>Cassius Clay beats Sonny Liston with his Phantom punch.!!
+                        </p>
+                        <p class="right">
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#myModal"> </button>
+                            <div class="modal fade" id="myModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button class="close" data-dismiss="modal" aria-hidden="true">
+                                                &times;
+                                            </button>
+                                            <h4 class="modal-title">This is Know more Modal</h4>
+                                        </div>
+                                        <div class="modal-body">
+
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                        <div class="modal-footer">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="list-group">
+                    <a class=" list-group-item">Music <span class="glyphicon glyphicon-music"></span></a>
+                    <a class="active list-group-item">Phone <span class="glyphicon glyphicon-phone"></span></a>
+                    <a class="list-group-item">Right</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                @*<div class="well">
+                        This is a sample usage of Well.
+                        <div class="btn btn-primary btn-xs" style="position:absolute;right:15px;top:0;">
+                            <>
+                        </div>
+                    </div>*@
+                <div class="accordion" id="accordion2">
+                    <div class="list-group">
+                        <div class="accordion-group list-group-item bg-info">
+                            <div class="accordion-heading ">
+                                <a class="accordion-toggle btn btn-lg" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                                    Col Tab 1   <span class="glyphicon glyphicon-chevron-down"  ></span>
+                                </a>
+                            </div>
+                            <div id="collapseOne" class="accordion-body collapse active">
+                                <div class="accordion-inner">
+                                    <div class="list-group">
+                                        <a class=" list-group-item">Music <span class="glyphicon glyphicon-music col-lg-offset-8"></span></a>
+                                        <a class=" list-group-item">Phone <span class="glyphicon glyphicon-phone col-lg-offset-8 "></span></a>
+                                        <a class="list-group-item">Right<span class="glyphicon glyphicon-phone col-lg-offset-8 "></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-group list-group-item bg-info">
+                            <div class="accordion-heading ">
+                                <a class="accordion-toggle btn btn-lg " data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                                    Col Tab 2   <span class="glyphicon glyphicon-chevron-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapseTwo" class="accordion-body collapse ">
+                                <div class="accordion-inner ">
+                                    <div class="list-group">
+                                        <a class=" list-group-item">Music <span class="glyphicon glyphicon-music col-lg-offset-8"></span></a>
+                                        <a class=" list-group-item">Phone <span class="glyphicon glyphicon-phone col-lg-offset-8 " ></span></a>
+                                        <a class="list-group-item">Right<span class="glyphicon glyphicon-phone col-lg-offset-9 "></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+                    <li><a href="#profile" data-toggle="tab">Profile</a></li>
+                    <li><a href="#messages" data-toggle="tab">Messages<span class="badge">12</span></a></li>
+                    <li><a href="#settings" data-toggle="tab">Settings</a></li>
+                </ul>
+
+                <div class="tab-content">
+
+                    <div class="tab-pane active" id="home">
+                        My Site.com is one place to start great tutorials..<br><br>
+                        My Site.com is one place to start great tutorials..<br><br>
+                        My Site.com is one place to start great tutorials..<br><br>
+                        My Site.com is one place to start great tutorials..<br><br>
+                        My Site.com is one place to start great tutorials..<br><br>&nbsp;to start great tutorials..<br><br>
+                        My Site.com is one place to start great tutorials..<br><br>
+                        My Site.com is one place to start great tutorials.<br>This is a good place to start.....<br>
+                        <button class="btn btn-danger" data-container="body" data-toggle="popover" data-placement="right" data-content="This is popover on right side of the button.!">
+                            Click to Pop Over!!
+                        </button>
+                    </div>
+
+                    <div class="tab-pane fade" id="profile">
+                        My Site.com is one place to start great tutorials..<br>
+                        My Site.com is one place to start great tutorials..<br>
+                        My Site.com is one place to start great tutorials..<br>
+                        My Site.com is one place to start great tutorials..<br>
+                        My Site.com is one place to start great tutorials..<br>
+                        My Site.com is one place to start great tutorials..<br>
+                        My Site.com is one place to start great tutorials..<br>
+                        My Site.com is one place to start great tutorials..<br>
+                        My Site.com is one place to start great tutorials..<br>
+                    </div>
+
+                    <div class="tab-pane fade" id="messages">
+                        My Site.com is one place to start great tutorials..<br><br>
+                        My Site.com is one place to start great tutorials..<br><br>
+                        My Site.com is one place to start great tutorials..<br>
+                        My Site.com is one place to start great tutorials..<br><br>
+                        My Site.com is one place to start great tutorials..<br><br>
+                        My Site.com is one place to start great tutorials..<br>
+                        My Site.com is one place to start great tutorials..<br>
+                        My Site.com is one place to start great tutorials..<br>
+                        My Site.com is one place to start great tutorials..<br>.
+                    </div>
+
+                    <div class="tab-pane fade" id="settings">
+                        My Site.com is one place to start great tutorials..<br>
+                        My Site.com is one place to start great tutorials..<br>
+                        My Site.com is one place to start great tutorials..<br>
+                        My Site.com is one place to start great tutorials..<br>
+                        My Site.com is one place to start great tutorials..<br>
+                        My Site.com is one place to start great tutorials..<br>
+                        My Site.com is one place to start great tutorials..<br>
+                        My Site.com is one place to start great tutorials..<br>
+                        My Site.com is one place to start great tutorials..<br>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+                    <div class="col-md-6">
+                        <div class="panel-group" id="accordion5">
+
+                            <div class="panel panel-danger">
+                                <div class="panel-heading btn btn-link" >
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion5" href="#collapse1">
+                                            Panel Toggle#1
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapse1" class="panel-collapse collapse in" >
+                                    <div class="panel-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-info">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion5" href="#collapse2">
+                                            Panel Toggle#2
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapse2" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion5" href="#collapse3">
+                                            Panel Toggle#3
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapse3" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6">
+
+
+                    </div>
+
+                </div>
+
+        
+
