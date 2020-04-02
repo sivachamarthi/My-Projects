@@ -5,9 +5,12 @@ All Samples done in VisualStudio
 
 
 
-select [identity].id as IdentityId, IdentityName, IsActive, aheaditemtype.Name, TEquipmentId, Country, EquipmentNumber, IsRTCEnabled, UnsubscribeAfter from [identity]
-    inner join identityresource on [identity].id = identityresource.identityid
-    inner join aheaditemtype on aheaditemtype.id = aheaditemtypeid
-    right outer join equipment on equipment.tequipmentid = identityresource.tresourceid
-    inner join unittype on unittype.id = unittypeid
-    order by [identity].id
+--Corrective Action
+SELECT COUNT(1) FROM [SERV].[T_JOB] WHERE JOB_CAT = 'COR'  AND DELETED  IS NULL OR DELETED = ''
+-- 699752
+SELECT TOP 10 * FROM [SERV].[T_JOB] WHERE JOB_CAT = 'COR' AND PLANNED_DATE IS NOT NULL
+
+-- Periodic Saftey Inspection
+SELECT COUNT(1) FROM [SERV].[T_JOB] WHERE JOB_CAT = 'PSI'  AND DELETED  IS NULL OR DELETED = ''
+--1772603
+SELECT TOP 10 * FROM [SERV].[T_JOB] WHERE JOB_CAT = 'PSI' AND PLANNED_DATE IS NOT NULL
