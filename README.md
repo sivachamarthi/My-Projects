@@ -1,16 +1,5 @@
 # My-Projects
 All Samples done in VisualStudio
 
-p-zz-cus-fulfillmenttest-1
 
-ch-54004595059 , ch-10433316, de-11126689
-
-
-
-p-cn-cus-fulfillmenttest-1
-
-cn-11014203
-
-XX imulator SDB-IOEE-
-XXTrainingsschächte TTC Schacht E-
-培训楼-右侧电梯-
+'21b39834-34ab-407c-8e07-347b8fba7d71', 'bf482edc-58fd-4e69-bc59-daf2aa91e522'
