@@ -1,5 +1,16 @@
 # My-Projects
 All Samples done in VisualStudio
 
+Common Name: p-zz-cus-emsdpilot-1
 
-'21b39834-34ab-407c-8e07-347b8fba7d71', 'bf482edc-58fd-4e69-bc59-daf2aa91e522'
+Subject Alternative Names: email: TBV
+
+Organization: Electrical and Mechanical Service Department
+
+Organization Unit: General Engineering Service Divison
+
+Locality: HK
+
+State: Hong Kong
+
+Country: HK
